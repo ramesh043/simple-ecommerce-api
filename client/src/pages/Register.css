@@ -1,0 +1,71 @@
+/* register.css */
+
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+.auth-form {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: center;
+}
+
+.auth-form h2 {
+  font-size: 24px;
+  color: #00b386;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.auth-form input,
+.auth-form select {
+  padding: 14px 16px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.auth-form input:focus,
+.auth-form select:focus {
+  border-color: #00b386;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(0, 179, 134, 0.2);
+}
+
+.auth-form select {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.auth-form button {
+  background: linear-gradient(to right, #00b386, #00e6ac);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-form button:hover {
+  background: linear-gradient(to right, #00a97a, #00c292);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form p {
+  font-size: 14px;
+  color: #666;
+}

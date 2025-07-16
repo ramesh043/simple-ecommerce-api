@@ -1,0 +1,68 @@
+/* login.css */
+
+.auth-form {
+  background: #ffffff;
+  padding: 42px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: center;
+}
+
+.auth-form h2 {
+  /* margin-top: 10px; */
+  margin-bottom: 22px;
+  font-size: 24px;
+  border-bottom: 1px solid #00b386;
+
+  color: #00b386;
+  font-weight: 600;
+}
+
+.auth-form input {
+  padding: 14px 16px;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.auth-form input::placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.auth-form input:focus {
+  border-color: #00b386;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(0, 179, 134, 0.2);
+}
+
+/* Button */
+.auth-form button {
+  background: linear-gradient(to right, #00b386, #00e6ac);
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-form button:hover {
+  background: linear-gradient(to right, #00a97a, #00c292);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form button:active {
+  transform: scale(0.98);
+}
